@@ -7,8 +7,5 @@ ENV MYSQL_USER="root"
 
 COPY db_backup.sql /docker-entrypoint-initdb.d/
 
-EXPOSE 3306
-
-
 
 # The init.sql file will be executed when the container is started for the first time.
